@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GreenScape Lawn Care</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #4CAF50, #2E7D32);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("https://images.unsplash.com/photo-1508873535684-277a3cbcc4e0") no-repeat center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+    }
+    .hero h2 {
+      font-size: 3rem;
+      text-align: center;
+    }
+    .services {
+      padding: 40px 20px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .card h3 {
+      color: #2E7D32;
+    }
+    .contact {
+      background: #f1f1f1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .contact h2 {
+      color: #4CAF50;
+    }
+    footer {
+      background: #2E7D32;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GreenScape Lawn Care</h1>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Making Your Lawn Look Its Best 🌱</h2>
+  </section>
+
+  <section id="services" class="services">
+    <div class="card">
+      <h3>Lawn Mowing</h3>
+      <p>Regular mowing to keep your yard neat, healthy, and beautiful all season long.</p>
+    </div>
+    <div class="card">
+      <h3>Fertilization</h3>
+      <p>Professional treatments to promote lush, green, and strong grass growth.</p>
+    </div>
+    <div class="card">
+      <h3>Weed Control</h3>
+      <p>Safe and effective solutions to keep your lawn weed-free.</p>
+    </div>
+    <div class="card">
+      <h3>Seasonal Cleanup</h3>
+      <p>Spring and fall cleanups to keep your yard fresh year-round.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 (555) 123-4567</p>
+    <p>✉️ info@greenscape.com</p>
+    <p>Serving your community with care and dedication.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 GreenScape Lawn Care. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
